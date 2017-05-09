@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Intro</title>
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div ng-controller="ourFirstController as first">
+      {{first.thingOne}}
+      {{first.thingTwo}}
+
+      <input ng-model="first.name" type="text" name="" value="">
+      {{first.name}}
+    </div>
+
+  </body>
+</html>
